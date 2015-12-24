@@ -1,0 +1,18 @@
+
+.wrapper {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+.darkBG{
+    background: #999;
+    height: 200px;
+}
+.darkerBG{
+    background: #666;
+    height: 150px;
+}
+.darkestBG{
+    background: #333;
+    height: 50px;
+}
