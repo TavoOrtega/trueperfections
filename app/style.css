@@ -1,4 +1,6 @@
-
+body{
+  margin-bottom: 80px;
+}
 .wrapper {
   background-color: red;
   height: 100px;
@@ -18,5 +20,9 @@
 }
 .home{
     background: #333;
-    height: 500px;
+    height: 600px;
+}
+#footer{
+  background: #999;
+  height: 50px;
 }
