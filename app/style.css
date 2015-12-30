@@ -1,4 +1,15 @@
+* {
+  margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin-bottom: 20px;
+}
+html body {
+  height: 100%;
+}
+
 body{
+  back
   margin-bottom: 80px;
 }
 .wrapper {
@@ -7,12 +18,25 @@ body{
   width: 100px;
 }
 .darkBG{
-    background: #999;
     height: 200px;
+    background-image: url(../images/champane04.jpg);
+    /*background-size: 100%;*/
+    /*background-position: 50% 50%;*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .darkerBG{
-    background: #666;
+    /*background: #666;*/
     height: 150px;
+    background-image: url(../images/tp-right-noBorder.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.responsive-image{
+    width: 100%;
+    background-size: 100% 100%;
 }
 .darkestBG{
     background: #333;
